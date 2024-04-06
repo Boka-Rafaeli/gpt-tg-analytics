@@ -1,4 +1,4 @@
-const { StringSession } = require('telegram/sessions')
+const {StringSession} = require('telegram/sessions')
 
 const session = new StringSession(process.env.TG_SESSION)
 const apiId = process.env.API_ID
@@ -10,12 +10,12 @@ const gigaScope = 'GIGACHAT_API_PERS'
 const botToken = process.env.TG_BOT_KEY
 
 module.exports = {
-  session,
-  apiHash,
-  apiId,
-  botToken,
-  gigaClientId,
-  gigaClientSecret,
-  gigaAuth,
-  gigaScope,
+    session,
+    apiHash,
+    apiId,
+    botToken,
+    gigaClientId,
+    gigaClientSecret,
+    gigaAuth,
+    gigaScope,
 }
